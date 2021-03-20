@@ -88,7 +88,7 @@ jobs:
         with:
           node-version: '12.x'
       
-      - name: Instal Newman
+      - name: Install Newman
         shell: bash
         run: |
           npm install -g newman
@@ -140,7 +140,7 @@ jobs:
         with:
           node-version: '12.x'
       
-      - name: Instal Newman
+      - name: Install Newman
         shell: bash
         run: |
           npm install -g newman
